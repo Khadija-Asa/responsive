@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+		/*Navbar*/
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+header {
+  height: 70px;
+  background: #113537;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+nav {
+  float: left;
+  line-height: 70px;
+}
+
+nav a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 16px;
+  margin-left: 50px;
+  color: white;
+  display: block-inline;
+}
+
+nav:hover a {
+  padding-left: 3px;
+}
+
+.pp img{
+  width: 8%;
+  margin-top: 0.5%;
+  margin-right: 80px;
+  margin-bottom: 0.5px;
+  border-radius: 10%;
+  float: right;
+}
+
+.pp img:hover {
+  border : 1px solid black;
+}
+  
+
+.banner {
+  width: 100%;
+  height: 570px;
+  position: fixed;
+  top: 60px;
+  background: url(img/pccode.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  padding-top: 100px;
+  font-size: 30px;
+  font-family: verdana;
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+    /*contenu*/
+
+.content {
+  width: 100%;
+  position: relative;
+  top: 650px;
+  font-family: monospace;
+}
+
+.content h2{
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+.content h3 {
+  padding-left: 400px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  color: #113537;
+}
+
+#me,
+#me3 {
+  background: #e3e3e3;
+}
+
+#me,
+#me3 {
+  color: #113537;
+}
+
+#me ul,
+#me3 ul{
+  color: #2c755c;
+  font-size: 20px;
+  padding-left: 400px;
+  padding-bottom: 80px;
+  line-height: 200%;
+  list-style: none;
+}
+
+#me2 {
+  background: #113537;
+}
+
+#me2 h2 {
+  color: #e3e3e3;
+}
+
+.icon img{
+  padding-left: 400px;
+  padding-bottom: 80px;
+  width: 320px;
+  height: 240px;
+}
+
+    /*footer*/
+
+footer {
+  background: #113537;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid black;
+  line-height: 200%;
+}
+
+footer h4 {
+  padding-left: 40px;
+  font-size: 15px;
+}
+
+#contact a{
+  color: white;
+  font-size: 15px;
+}
