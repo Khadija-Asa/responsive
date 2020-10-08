@@ -1,15 +1,44 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-img {
-  width: 100%; 
-  height: 250px;
+.div1,
+.div2,
+.div3,
+.div4 {
+  border: black solid 5px;
+}
+
+.part1 {
+  border: red solid 2px;
 }
 
 .part2 {
-  position: flex;
-  flex-direction: row-reverse;
-  background-color: red;
+  border: blue solid 2px;
+  float: right;
+}
+
+.part3 {
+  border: black solid 2px;
+}
+
+.part4 {
+  border: purple solid 2px;
+}
+
+.part5 {
+  border: pink solid 2px;
+}
+
+.part6 {
+  border: maroon solid 2px;
+}
+
+.part7 {
+  border: orange solid 2px;
+}
+
+.part8 {
+  border: yellow solid 2px;
 }
