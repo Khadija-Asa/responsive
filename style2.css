@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+  body {
+    background-color: green;
+    font-size: 20px;
+  }
+  p {
+    background-color: gray;
+    font-size: 8px;
+    margin: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width : 992px) {
+  body {
+    background-color: pink;
+    font-size: 16px;
+  }
+  p {
+    background-color: pink;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width : 1200px) {
+  body {
+    background-color: red;
+    font-size: 12px;
+  }
+  p {
+    background-color: pink;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: purple;
+    font-size: 8px;
+  }
+  p {
+    background-color: pink;
+    font-size: 20px;
+  }
+}
